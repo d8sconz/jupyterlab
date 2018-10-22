@@ -1,0 +1,841 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>@jupyterlab/statusbar-extension</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.js" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">JupyterLab</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="globals.html">Globals</a>
+				</li>
+			</ul>
+			<h1> @jupyterlab/statusbar-extension</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Modules</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-module"><a href="modules/ifilepath.html" class="tsd-kind-icon">IFile<wbr>Path</a></li>
+								<li class="tsd-kind-module"><a href="modules/ikernelstatus.html" class="tsd-kind-icon">IKernel<wbr>Status</a></li>
+								<li class="tsd-kind-module"><a href="modules/ilinecol.html" class="tsd-kind-icon">ILine<wbr>Col</a></li>
+								<li class="tsd-kind-module"><a href="modules/imemoryusage.html" class="tsd-kind-icon">IMemory<wbr>Usage</a></li>
+								<li class="tsd-kind-module"><a href="modules/irunningsessions.html" class="tsd-kind-icon">IRunning<wbr>Sessions</a></li>
+								<li class="tsd-kind-module"><a href="modules/isavingstatus.html" class="tsd-kind-icon">ISaving<wbr>Status</a></li>
+								<li class="tsd-kind-module tsd-has-type-parameter"><a href="modules/istatuscontext.html" class="tsd-kind-icon">IStatus<wbr>Context</a></li>
+								<li class="tsd-kind-module"><a href="modules/itabspace.html" class="tsd-kind-icon">ITab<wbr>Space</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Variables</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-variable"><a href="globals.html#statusbar_plugin_id" class="tsd-kind-icon">STATUSBAR_<wbr>PLUGIN_<wbr>ID</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#hoveritem" class="tsd-kind-icon">hover<wbr>Item</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#lineformbutton" class="tsd-kind-icon">line<wbr>Form<wbr>Button</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#lineformcaption" class="tsd-kind-icon">line<wbr>Form<wbr>Caption</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#lineforminput" class="tsd-kind-icon">line<wbr>Form<wbr>Input</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#lineformsearch" class="tsd-kind-icon">line<wbr>Form<wbr>Search</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#lineformwrapper" class="tsd-kind-icon">line<wbr>Form<wbr>Wrapper</a></li>
+								<li class="tsd-kind-variable"><a href="globals.html#lineformwrapperfocuswithin" class="tsd-kind-icon">line<wbr>Form<wbr>Wrapper<wbr>Focus<wbr>Within</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Object literals</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-object-literal"><a href="globals.html#filepathstatus" class="tsd-kind-icon">file<wbr>Path<wbr>Status</a></li>
+								<li class="tsd-kind-object-literal"><a href="globals.html#kernelstatus" class="tsd-kind-icon">kernel<wbr>Status</a></li>
+								<li class="tsd-kind-object-literal"><a href="globals.html#linecolitem" class="tsd-kind-icon">line<wbr>Col<wbr>Item</a></li>
+								<li class="tsd-kind-object-literal"><a href="globals.html#memoryusageitem" class="tsd-kind-icon">memory<wbr>Usage<wbr>Item</a></li>
+								<li class="tsd-kind-object-literal"><a href="globals.html#runningsessionsitem" class="tsd-kind-icon">running<wbr>Sessions<wbr>Item</a></li>
+								<li class="tsd-kind-object-literal"><a href="globals.html#savingstatusitem" class="tsd-kind-icon">saving<wbr>Status<wbr>Item</a></li>
+								<li class="tsd-kind-object-literal"><a href="globals.html#tabspaceitem" class="tsd-kind-icon">tab<wbr>Space<wbr>Item</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Variables</h2>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="statusbar_plugin_id" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> STATUSBAR_<wbr>PLUGIN_<wbr>ID</h3>
+					<div class="tsd-signature tsd-kind-icon">STATUSBAR_<wbr>PLUGIN_<wbr>ID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"@jupyterlab/statusbar-extension:plugin"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;@jupyterlab/statusbar-extension:plugin&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/index.ts#L20">index.ts:20</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="hoveritem" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> hover<wbr>Item</h3>
+					<div class="tsd-signature tsd-kind-icon">hover<wbr>Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;style({boxShadow: &#x27;0px 4px 4px rgba(0, 0, 0, 0.25)&#x27;})</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/style/lineForm.ts#L3">style/lineForm.ts:3</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="lineformbutton" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> line<wbr>Form<wbr>Button</h3>
+					<div class="tsd-signature tsd-kind-icon">line<wbr>Form<wbr>Button<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;style({color: &#x27;white&#x27;,border: &#x27;none&#x27;,borderRadius: &#x27;0px&#x27;,backgroundColor: &#x27;var(--jp-brand-color1)&#x27;,position: &#x27;absolute&#x27;,top: &#x27;4px&#x27;,right: &#x27;8px&#x27;,height: &#x27;24px&#x27;,width: &#x27;12px&#x27;,padding: &#x27;0px 12px&#x27;,backgroundSize: &#x27;16px&#x27;,backgroundRepeat: &#x27;no-repeat&#x27;,backgroundPosition: &#x27;center&#x27;,outline: &#x27;none&#x27;})</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/style/lineForm.ts#L22">style/lineForm.ts:22</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="lineformcaption" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> line<wbr>Form<wbr>Caption</h3>
+					<div class="tsd-signature tsd-kind-icon">line<wbr>Form<wbr>Caption<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;style({fontSize: &#x27;var(--jp-ui-font-size0)&#x27;,lineHeight: &#x27;var(--jp-ui-font-size1)&#x27;,marginTop: &#x27;4px&#x27;,color: &#x27;var(--jp-ui-font-color0)&#x27;})</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/style/lineForm.ts#L15">style/lineForm.ts:15</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="lineforminput" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> line<wbr>Form<wbr>Input</h3>
+					<div class="tsd-signature tsd-kind-icon">line<wbr>Form<wbr>Input<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;style({background: &#x27;transparent&#x27;,width: &#x27;200px&#x27;,height: &#x27;100%&#x27;,border: &#x27;none&#x27;,outline: &#x27;none&#x27;,color: &#x27;var(--jp-ui-font-color0)&#x27;,lineHeight: &#x27;28px&#x27;})</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/style/lineForm.ts#L52">style/lineForm.ts:52</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="lineformsearch" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> line<wbr>Form<wbr>Search</h3>
+					<div class="tsd-signature tsd-kind-icon">line<wbr>Form<wbr>Search<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;style({padding: &#x27;4px 12px&#x27;,backgroundColor: &#x27;var(--jp-layout-color2)&#x27;,boxShadow: &#x27;var(--jp-toolbar-box-shadow)&#x27;,zIndex: 2,fontSize: &#x27;var(--jp-ui-font-size1)&#x27;})</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/style/lineForm.ts#L7">style/lineForm.ts:7</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="lineformwrapper" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> line<wbr>Form<wbr>Wrapper</h3>
+					<div class="tsd-signature tsd-kind-icon">line<wbr>Form<wbr>Wrapper<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;style({overflow: &#x27;hidden&#x27;,padding: &#x27;0px 8px&#x27;,border: &#x27;1px solid var(--jp-border-color0)&#x27;,backgroundColor: &#x27;var(--jp-input-active-background)&#x27;,height: &#x27;22px&#x27;})</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/style/lineForm.ts#L39">style/lineForm.ts:39</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable">
+					<a name="lineformwrapperfocuswithin" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> line<wbr>Form<wbr>Wrapper<wbr>Focus<wbr>Within</h3>
+					<div class="tsd-signature tsd-kind-icon">line<wbr>Form<wbr>Wrapper<wbr>Focus<wbr>Within<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;style({border: &#x27;var(--jp-border-width) solid var(--md-blue-500)&#x27;,boxShadow: &#x27;inset 0 0 4px var(--md-blue-300)&#x27;})</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/style/lineForm.ts#L47">style/lineForm.ts:47</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Object literals</h2>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
+					<a name="filepathstatus" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> file<wbr>Path<wbr>Status</h3>
+					<div class="tsd-signature tsd-kind-icon">file<wbr>Path<wbr>Status<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/filePath.tsx#L202">defaults/filePath.tsx:202</a></li>
+						</ul>
+					</aside>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="filepathstatus.autostart" class="tsd-anchor"></a>
+						<h3>auto<wbr>Start</h3>
+						<div class="tsd-signature tsd-kind-icon">auto<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/filePath.tsx#L204">defaults/filePath.tsx:204</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="filepathstatus.id" class="tsd-anchor"></a>
+						<h3>id</h3>
+						<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;@jupyterlab/statusbar:file-path-status&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/filePath.tsx#L203">defaults/filePath.tsx:203</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="filepathstatus.requires" class="tsd-anchor"></a>
+						<h3>requires</h3>
+						<div class="tsd-signature tsd-kind-icon">requires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Token</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IStatusBar</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[IStatusBar, IDocumentManager]</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/filePath.tsx#L205">defaults/filePath.tsx:205</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-object-literal">
+						<a name="filepathstatus.activate" class="tsd-anchor"></a>
+						<h3>activate</h3>
+						<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-object-literal">
+							<li class="tsd-signature tsd-kind-icon">activate<span class="tsd-signature-symbol">(</span>app<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JupyterLab</span>, statusBar<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IStatusBar</span>, docManager<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IDocumentManager</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						</ul>
+						<ul class="tsd-descriptions">
+							<li class="tsd-description">
+								<aside class="tsd-sources">
+									<ul>
+										<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/filePath.tsx#L206">defaults/filePath.tsx:206</a></li>
+									</ul>
+								</aside>
+								<h4 class="tsd-parameters-title">Parameters</h4>
+								<ul class="tsd-parameters">
+									<li>
+										<h5>app: <span class="tsd-signature-type">JupyterLab</span></h5>
+									</li>
+									<li>
+										<h5>statusBar: <span class="tsd-signature-type">IStatusBar</span></h5>
+									</li>
+									<li>
+										<h5>docManager: <span class="tsd-signature-type">IDocumentManager</span></h5>
+									</li>
+								</ul>
+								<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
+					<a name="kernelstatus" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> kernel<wbr>Status</h3>
+					<div class="tsd-signature tsd-kind-icon">kernel<wbr>Status<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/kernelStatus.tsx#L274">defaults/kernelStatus.tsx:274</a></li>
+						</ul>
+					</aside>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="kernelstatus.autostart" class="tsd-anchor"></a>
+						<h3>auto<wbr>Start</h3>
+						<div class="tsd-signature tsd-kind-icon">auto<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/kernelStatus.tsx#L276">defaults/kernelStatus.tsx:276</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="kernelstatus.id" class="tsd-anchor"></a>
+						<h3>id</h3>
+						<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;@jupyterlab/statusbar:kernel-status&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/kernelStatus.tsx#L275">defaults/kernelStatus.tsx:275</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="kernelstatus.requires" class="tsd-anchor"></a>
+						<h3>requires</h3>
+						<div class="tsd-signature tsd-kind-icon">requires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Token</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IStatusBar</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[IStatusBar, INotebookTracker, IConsoleTracker]</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/kernelStatus.tsx#L277">defaults/kernelStatus.tsx:277</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-object-literal">
+						<a name="kernelstatus.activate" class="tsd-anchor"></a>
+						<h3>activate</h3>
+						<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-object-literal">
+							<li class="tsd-signature tsd-kind-icon">activate<span class="tsd-signature-symbol">(</span>app<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JupyterLab</span>, statusBar<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IStatusBar</span>, notebookTracker<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">INotebookTracker</span>, consoleTracker<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IConsoleTracker</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						</ul>
+						<ul class="tsd-descriptions">
+							<li class="tsd-description">
+								<aside class="tsd-sources">
+									<ul>
+										<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/kernelStatus.tsx#L278">defaults/kernelStatus.tsx:278</a></li>
+									</ul>
+								</aside>
+								<h4 class="tsd-parameters-title">Parameters</h4>
+								<ul class="tsd-parameters">
+									<li>
+										<h5>app: <span class="tsd-signature-type">JupyterLab</span></h5>
+									</li>
+									<li>
+										<h5>statusBar: <span class="tsd-signature-type">IStatusBar</span></h5>
+									</li>
+									<li>
+										<h5>notebookTracker: <span class="tsd-signature-type">INotebookTracker</span></h5>
+									</li>
+									<li>
+										<h5>consoleTracker: <span class="tsd-signature-type">IConsoleTracker</span></h5>
+									</li>
+								</ul>
+								<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
+					<a name="linecolitem" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> line<wbr>Col<wbr>Item</h3>
+					<div class="tsd-signature tsd-kind-icon">line<wbr>Col<wbr>Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/lineCol.tsx#L405">defaults/lineCol.tsx:405</a></li>
+						</ul>
+					</aside>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="linecolitem.autostart" class="tsd-anchor"></a>
+						<h3>auto<wbr>Start</h3>
+						<div class="tsd-signature tsd-kind-icon">auto<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/lineCol.tsx#L407">defaults/lineCol.tsx:407</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="linecolitem.id" class="tsd-anchor"></a>
+						<h3>id</h3>
+						<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;@jupyterlab/statusbar:line-col-item&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/lineCol.tsx#L406">defaults/lineCol.tsx:406</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="linecolitem.requires" class="tsd-anchor"></a>
+						<h3>requires</h3>
+						<div class="tsd-signature tsd-kind-icon">requires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Token</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IStatusBar</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[IStatusBar, INotebookTracker, IEditorTracker, IConsoleTracker]</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/lineCol.tsx#L408">defaults/lineCol.tsx:408</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-object-literal">
+						<a name="linecolitem.activate" class="tsd-anchor"></a>
+						<h3>activate</h3>
+						<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-object-literal">
+							<li class="tsd-signature tsd-kind-icon">activate<span class="tsd-signature-symbol">(</span>app<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JupyterLab</span>, statusBar<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IStatusBar</span>, notebookTracker<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">INotebookTracker</span>, editorTracker<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IEditorTracker</span>, consoleTracker<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IConsoleTracker</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						</ul>
+						<ul class="tsd-descriptions">
+							<li class="tsd-description">
+								<aside class="tsd-sources">
+									<ul>
+										<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/lineCol.tsx#L409">defaults/lineCol.tsx:409</a></li>
+									</ul>
+								</aside>
+								<h4 class="tsd-parameters-title">Parameters</h4>
+								<ul class="tsd-parameters">
+									<li>
+										<h5>app: <span class="tsd-signature-type">JupyterLab</span></h5>
+									</li>
+									<li>
+										<h5>statusBar: <span class="tsd-signature-type">IStatusBar</span></h5>
+									</li>
+									<li>
+										<h5>notebookTracker: <span class="tsd-signature-type">INotebookTracker</span></h5>
+									</li>
+									<li>
+										<h5>editorTracker: <span class="tsd-signature-type">IEditorTracker</span></h5>
+									</li>
+									<li>
+										<h5>consoleTracker: <span class="tsd-signature-type">IConsoleTracker</span></h5>
+									</li>
+								</ul>
+								<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
+					<a name="memoryusageitem" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> memory<wbr>Usage<wbr>Item</h3>
+					<div class="tsd-signature tsd-kind-icon">memory<wbr>Usage<wbr>Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/memoryUsage.tsx#L256">defaults/memoryUsage.tsx:256</a></li>
+						</ul>
+					</aside>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="memoryusageitem.autostart" class="tsd-anchor"></a>
+						<h3>auto<wbr>Start</h3>
+						<div class="tsd-signature tsd-kind-icon">auto<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/memoryUsage.tsx#L258">defaults/memoryUsage.tsx:258</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="memoryusageitem.id" class="tsd-anchor"></a>
+						<h3>id</h3>
+						<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;@jupyterlab/statusbar:memory-usage-item&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/memoryUsage.tsx#L257">defaults/memoryUsage.tsx:257</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="memoryusageitem.requires" class="tsd-anchor"></a>
+						<h3>requires</h3>
+						<div class="tsd-signature tsd-kind-icon">requires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Token</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IStatusBar</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[IStatusBar]</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/memoryUsage.tsx#L259">defaults/memoryUsage.tsx:259</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-object-literal">
+						<a name="memoryusageitem.activate" class="tsd-anchor"></a>
+						<h3>activate</h3>
+						<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-object-literal">
+							<li class="tsd-signature tsd-kind-icon">activate<span class="tsd-signature-symbol">(</span>app<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JupyterLab</span>, statusBar<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IStatusBar</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						</ul>
+						<ul class="tsd-descriptions">
+							<li class="tsd-description">
+								<aside class="tsd-sources">
+									<ul>
+										<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/memoryUsage.tsx#L260">defaults/memoryUsage.tsx:260</a></li>
+									</ul>
+								</aside>
+								<h4 class="tsd-parameters-title">Parameters</h4>
+								<ul class="tsd-parameters">
+									<li>
+										<h5>app: <span class="tsd-signature-type">JupyterLab</span></h5>
+									</li>
+									<li>
+										<h5>statusBar: <span class="tsd-signature-type">IStatusBar</span></h5>
+									</li>
+								</ul>
+								<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
+					<a name="runningsessionsitem" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> running<wbr>Sessions<wbr>Item</h3>
+					<div class="tsd-signature tsd-kind-icon">running<wbr>Sessions<wbr>Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/runningSessions.tsx#L183">defaults/runningSessions.tsx:183</a></li>
+						</ul>
+					</aside>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="runningsessionsitem.autostart" class="tsd-anchor"></a>
+						<h3>auto<wbr>Start</h3>
+						<div class="tsd-signature tsd-kind-icon">auto<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/runningSessions.tsx#L185">defaults/runningSessions.tsx:185</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="runningsessionsitem.id" class="tsd-anchor"></a>
+						<h3>id</h3>
+						<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;@jupyterlab/statusbar:running-sessions-item&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/runningSessions.tsx#L184">defaults/runningSessions.tsx:184</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="runningsessionsitem.requires" class="tsd-anchor"></a>
+						<h3>requires</h3>
+						<div class="tsd-signature tsd-kind-icon">requires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Token</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IStatusBar</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[IStatusBar]</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/runningSessions.tsx#L186">defaults/runningSessions.tsx:186</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-object-literal">
+						<a name="runningsessionsitem.activate" class="tsd-anchor"></a>
+						<h3>activate</h3>
+						<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-object-literal">
+							<li class="tsd-signature tsd-kind-icon">activate<span class="tsd-signature-symbol">(</span>app<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JupyterLab</span>, statusBar<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IStatusBar</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						</ul>
+						<ul class="tsd-descriptions">
+							<li class="tsd-description">
+								<aside class="tsd-sources">
+									<ul>
+										<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/runningSessions.tsx#L187">defaults/runningSessions.tsx:187</a></li>
+									</ul>
+								</aside>
+								<h4 class="tsd-parameters-title">Parameters</h4>
+								<ul class="tsd-parameters">
+									<li>
+										<h5>app: <span class="tsd-signature-type">JupyterLab</span></h5>
+									</li>
+									<li>
+										<h5>statusBar: <span class="tsd-signature-type">IStatusBar</span></h5>
+									</li>
+								</ul>
+								<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
+					<a name="savingstatusitem" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> saving<wbr>Status<wbr>Item</h3>
+					<div class="tsd-signature tsd-kind-icon">saving<wbr>Status<wbr>Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/savingStatus.tsx#L158">defaults/savingStatus.tsx:158</a></li>
+						</ul>
+					</aside>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="savingstatusitem.autostart" class="tsd-anchor"></a>
+						<h3>auto<wbr>Start</h3>
+						<div class="tsd-signature tsd-kind-icon">auto<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/savingStatus.tsx#L160">defaults/savingStatus.tsx:160</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="savingstatusitem.id" class="tsd-anchor"></a>
+						<h3>id</h3>
+						<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;@jupyterlab/statusbar:saving-status-item&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/savingStatus.tsx#L159">defaults/savingStatus.tsx:159</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="savingstatusitem.requires" class="tsd-anchor"></a>
+						<h3>requires</h3>
+						<div class="tsd-signature tsd-kind-icon">requires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Token</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IStatusBar</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[IStatusBar, IDocumentManager]</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/savingStatus.tsx#L161">defaults/savingStatus.tsx:161</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-object-literal">
+						<a name="savingstatusitem.activate" class="tsd-anchor"></a>
+						<h3>activate</h3>
+						<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-object-literal">
+							<li class="tsd-signature tsd-kind-icon">activate<span class="tsd-signature-symbol">(</span>app<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JupyterLab</span>, statusBar<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IStatusBar</span>, docManager<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IDocumentManager</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						</ul>
+						<ul class="tsd-descriptions">
+							<li class="tsd-description">
+								<aside class="tsd-sources">
+									<ul>
+										<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/savingStatus.tsx#L162">defaults/savingStatus.tsx:162</a></li>
+									</ul>
+								</aside>
+								<h4 class="tsd-parameters-title">Parameters</h4>
+								<ul class="tsd-parameters">
+									<li>
+										<h5>app: <span class="tsd-signature-type">JupyterLab</span></h5>
+									</li>
+									<li>
+										<h5>statusBar: <span class="tsd-signature-type">IStatusBar</span></h5>
+									</li>
+									<li>
+										<h5>docManager: <span class="tsd-signature-type">IDocumentManager</span></h5>
+									</li>
+								</ul>
+								<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							</li>
+						</ul>
+					</section>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
+					<a name="tabspaceitem" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> tab<wbr>Space<wbr>Item</h3>
+					<div class="tsd-signature tsd-kind-icon">tab<wbr>Space<wbr>Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/tabSpace.tsx#L405">defaults/tabSpace.tsx:405</a></li>
+						</ul>
+					</aside>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="tabspaceitem.autostart" class="tsd-anchor"></a>
+						<h3>auto<wbr>Start</h3>
+						<div class="tsd-signature tsd-kind-icon">auto<wbr>Start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/tabSpace.tsx#L407">defaults/tabSpace.tsx:407</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="tabspaceitem.id" class="tsd-anchor"></a>
+						<h3>id</h3>
+						<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;@jupyterlab/statusbar:tab-space-item&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/tabSpace.tsx#L406">defaults/tabSpace.tsx:406</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="tabspaceitem.requires" class="tsd-anchor"></a>
+						<h3>requires</h3>
+						<div class="tsd-signature tsd-kind-icon">requires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Token</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IStatusBar</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[IStatusBar,INotebookTracker,IEditorTracker,IConsoleTracker,ISettingRegistry]</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/tabSpace.tsx#L408">defaults/tabSpace.tsx:408</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-object-literal">
+						<a name="tabspaceitem.activate" class="tsd-anchor"></a>
+						<h3>activate</h3>
+						<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-object-literal">
+							<li class="tsd-signature tsd-kind-icon">activate<span class="tsd-signature-symbol">(</span>app<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">JupyterLab</span>, statusBar<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IStatusBar</span>, notebookTracker<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">INotebookTracker</span>, editorTracker<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IEditorTracker</span>, consoleTracker<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IConsoleTracker</span>, settings<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ISettingRegistry</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						</ul>
+						<ul class="tsd-descriptions">
+							<li class="tsd-description">
+								<aside class="tsd-sources">
+									<ul>
+										<li>Defined in <a href="https://github.com/jupyterlab/jupyterlab/blob/334136f/packages/statusbar-extension/src/defaults/tabSpace.tsx#L415">defaults/tabSpace.tsx:415</a></li>
+									</ul>
+								</aside>
+								<h4 class="tsd-parameters-title">Parameters</h4>
+								<ul class="tsd-parameters">
+									<li>
+										<h5>app: <span class="tsd-signature-type">JupyterLab</span></h5>
+									</li>
+									<li>
+										<h5>statusBar: <span class="tsd-signature-type">IStatusBar</span></h5>
+									</li>
+									<li>
+										<h5>notebookTracker: <span class="tsd-signature-type">INotebookTracker</span></h5>
+									</li>
+									<li>
+										<h5>editorTracker: <span class="tsd-signature-type">IEditorTracker</span></h5>
+									</li>
+									<li>
+										<h5>consoleTracker: <span class="tsd-signature-type">IConsoleTracker</span></h5>
+									</li>
+									<li>
+										<h5>settings: <span class="tsd-signature-type">ISettingRegistry</span></h5>
+									</li>
+								</ul>
+								<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							</li>
+						</ul>
+					</section>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals current ">
+						<a href="globals.html"><em>Globals</em></a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/ifilepath.html">IFile<wbr>Path</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/ikernelstatus.html">IKernel<wbr>Status</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/ilinecol.html">ILine<wbr>Col</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/imemoryusage.html">IMemory<wbr>Usage</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/irunningsessions.html">IRunning<wbr>Sessions</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/isavingstatus.html">ISaving<wbr>Status</a>
+					</li>
+					<li class=" tsd-kind-module tsd-has-type-parameter">
+						<a href="modules/istatuscontext.html">IStatus<wbr>Context</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="modules/itabspace.html">ITab<wbr>Space</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#statusbar_plugin_id" class="tsd-kind-icon">STATUSBAR_<wbr>PLUGIN_<wbr>ID</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#hoveritem" class="tsd-kind-icon">hover<wbr>Item</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#lineformbutton" class="tsd-kind-icon">line<wbr>Form<wbr>Button</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#lineformcaption" class="tsd-kind-icon">line<wbr>Form<wbr>Caption</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#lineforminput" class="tsd-kind-icon">line<wbr>Form<wbr>Input</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#lineformsearch" class="tsd-kind-icon">line<wbr>Form<wbr>Search</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#lineformwrapper" class="tsd-kind-icon">line<wbr>Form<wbr>Wrapper</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#lineformwrapperfocuswithin" class="tsd-kind-icon">line<wbr>Form<wbr>Wrapper<wbr>Focus<wbr>Within</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#filepathstatus" class="tsd-kind-icon">file<wbr>Path<wbr>Status</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#kernelstatus" class="tsd-kind-icon">kernel<wbr>Status</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#linecolitem" class="tsd-kind-icon">line<wbr>Col<wbr>Item</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#memoryusageitem" class="tsd-kind-icon">memory<wbr>Usage<wbr>Item</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#runningsessionsitem" class="tsd-kind-icon">running<wbr>Sessions<wbr>Item</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#savingstatusitem" class="tsd-kind-icon">saving<wbr>Status<wbr>Item</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#tabspaceitem" class="tsd-kind-icon">tab<wbr>Space<wbr>Item</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
