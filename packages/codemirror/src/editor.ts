@@ -1144,8 +1144,7 @@ export namespace CodeMirrorEditor {
     lineSeparator: null,
     scrollbarStyle: 'native',
     lineWiseCopyCut: true,
-    scrollPastEnd: false,
-    foldGutter: true
+    scrollPastEnd: false
   };
 
   /**
