@@ -31,6 +31,9 @@ import 'codemirror/addon/edit/closebrackets.js';
 import 'codemirror/addon/scroll/scrollpastend.js';
 import 'codemirror/addon/search/searchcursor';
 import 'codemirror/addon/search/search';
+import 'codemirror/addon/fold/indent-fold.js';
+import 'codemirror/addon/fold/foldgutter.js';
+import 'codemirror/addon/fold/foldgutter.css';
 import 'codemirror/addon/search/jump-to-line';
 import 'codemirror/keymap/emacs.js';
 import 'codemirror/keymap/sublime.js';
@@ -1141,7 +1144,8 @@ export namespace CodeMirrorEditor {
     lineSeparator: null,
     scrollbarStyle: 'native',
     lineWiseCopyCut: true,
-    scrollPastEnd: false
+    scrollPastEnd: false,
+    foldGutter: true
   };
 
   /**
